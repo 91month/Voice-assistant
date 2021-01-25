@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yuyingActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/side_nav_bar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="语音交互"
+                android:textSize="22sp"
+                android:layout_marginLeft="240dp"/>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/nlp_start"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="128dp"
+            android:background="#4E65BE"
+            android:text="开始录音" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人机交互课程设计-覃方圆"
+            android:textSize="25sp"
+            android:textColor="#C6C4E1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/jiaohu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gif"
+            android:layout_marginTop="0dp"
+            />
+        <EditText
+            android:id="@+id/nlp_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/jiaohu"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="@drawable/left"
+            android:hint="ceshi"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

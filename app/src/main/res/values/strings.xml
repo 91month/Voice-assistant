@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_me">十久CC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">91month</string>
+    <string name="nav_header_subtitle">2915969246@qq.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">个人</string>
+    <string name="menu_gallery">画廊</string>
+    <string name="menu_slideshow">幻灯片</string>
+    <string name="menu_tools">工具</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_send">关于</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="send">发送</string>
+    <string name="welcome_tips">您好！O(∩_∩)O</string>
+</resources>
